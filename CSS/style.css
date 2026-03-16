@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -16,7 +17,12 @@ nav {
     align-items: center;
     justify-content: space-evenly;
 }
-
+#abcd{
+    position: fixed;
+    top:0px;
+    z-index: 999;
+    width: 100%;
+}
 nav img {
     height: 70px;
     width: 10%;
@@ -231,6 +237,8 @@ nav ul li a:hover::after {
     gap: 30px;
     margin-left: 20px;
     font-size: 1.1rem;
+    width: 80%;
+    margin: auto;
 }
 
 /* skills */
@@ -507,3 +515,5 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
+/* media query */
+
